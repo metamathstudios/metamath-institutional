@@ -1,0 +1,61 @@
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--moredarker);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logoContainer {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+
+        .logoBox {
+            img {
+                width: 55px;
+            }
+        }
+    }
+
+    .menuContainer {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+
+        .menu {
+            color: white;
+            ul {
+                list-style: none;
+    
+                li {
+                    display: inline;
+                    padding: 20px;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    color: #A4A4A4;
+                }
+            }
+        }
+    }
+
+    .serviceButtonContainer {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+
+        .serviceButton {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            padding: 16px 60px;
+            border-radius: 50px;
+            background: rgb(81,58,146);
+            background: linear-gradient(90deg, rgba(81,58,146,1) 0%, rgba(34,108,181,1) 100%);
+        }
+    }
+
+
+}
