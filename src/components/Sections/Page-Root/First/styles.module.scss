@@ -9,10 +9,10 @@
 
 .columnsContainer {
     display: grid;
-    grid-template-areas: "col2 col1";
+    grid-template-areas: 'col2 col1';
 
     .firstColumn {
-        grid-area: "col1";
+        grid-area: 'col1';
         width: 550px;
         display: flex;
         justify-content: center;
@@ -45,7 +45,7 @@
     }
     
     .secondColumn {
-        grid-area: "col2";
+        grid-area: 'col2';
         width: 100%;
         max-width: 650px;
         display: flex;
@@ -55,5 +55,19 @@
         img {
             width: 100%;
         }
+    }
+    
+    .wavesContainer {
+      position: absolute;
+      width: 100%;
+      height: 90vh;
+      right: 0%;
+      bottom: 0%;
+      background-image: url('assets/waves.svg');
+      background-size: cover;
+
+      @media only screen and (min-width: 1400px) {
+        background-position-y: -4%;
+      }
     }
 }

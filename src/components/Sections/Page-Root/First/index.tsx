@@ -2,7 +2,7 @@ import { Component } from 'react'
 
 import styles from './styles.module.scss';
 
-export default class SectionFirst extends Component {
+export default class HeroSection extends Component {
   render() {
     return (
       <section className={styles.section}>
@@ -17,6 +17,7 @@ export default class SectionFirst extends Component {
           <div className={styles.secondColumn}>
             <img src="/assets/code_view.png" alt="Code View" />
           </div>
+          <div className={styles.wavesContainer} />
         </div>
       </section>
     )
