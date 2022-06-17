@@ -8,16 +8,16 @@ export default class Header extends Component {
       <nav className={styles.header}>
         <div className={styles.logoContainer}>
           <div className={styles.logoBox}>
-            <img src="/assets/metamath_m_logo.png" alt="MetaMath Logo" />
+            <a href='/'><img src="/assets/metamath_m_logo.png" alt="MetaMath Logo" /></a>
           </div>
         </div>
 
         <div className={styles.menuContainer}>
           <div className={styles.menu}>
             <ul>
-              <li>Products</li>
-              <li>Projects</li>
-              <li>About Us</li>
+              <li><a href='/products'>Products</a></li>
+              <li><a href='/projects'>Projects</a></li>
+              <li><a href='/about'>About Us</a></li>
             </ul>
           </div>
         </div>
