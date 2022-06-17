@@ -1,9 +1,11 @@
 .container {
   width: 100%;
-  height: 200vh;
+  height: 230vh;
   font-family: 'Poppins', sans-serif;
   color: white;
   background-color: var(--blue);
+  background-image: url(./assets/footerWaves.svg);
+  background-size: auto;
 
   .presentationHeader {
     display: flex;

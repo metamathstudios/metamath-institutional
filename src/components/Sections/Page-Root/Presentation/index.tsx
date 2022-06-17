@@ -1,6 +1,9 @@
 import { Component } from 'react'
 
-import trust from './assets/trust.svg' 
+import trust from './assets/trust.svg'
+import stability from './assets/stability.svg'
+import performance from './assets/performance.svg'
+import design from './assets/design.svg'
 
 import styles from './styles.module.scss';
 
@@ -14,9 +17,9 @@ export default class Presentation extends Component {
         <div className={styles.skillsContainer}>
           <div className={styles.skillsImg}>
             <img src={trust} alt='Trust'/>
-            <img src={trust} alt='Trust'/>
-            <img src={trust} alt='Trust'/>
-            <img src={trust} alt='Trust'/>
+            <img src={stability} alt='Trust'/>
+            <img src={performance} alt='Trust'/>
+            <img src={design} alt='Trust'/>
           </div>
         </div>
         <div className={styles.presentationInfoContainer}>
