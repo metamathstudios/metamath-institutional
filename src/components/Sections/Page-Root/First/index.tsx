@@ -16,8 +16,7 @@ export default class HeroSection extends Component {
           </div>
           <div className={styles.secondColumn}>
             <img src="/assets/code_view.png" alt="Code View" />
-          </div>
-          <div className={styles.wavesContainer} />
+          </div>  
         </div>
       </section>
     )
