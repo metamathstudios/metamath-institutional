@@ -15,8 +15,8 @@ export default class Footer extends Component {
           <div>Company</div>
         </div>
         <div className={styles.footerInfo}>
-          <p>Termos de Serviço - Política de Privacidade</p> 
-          <p>© 2022 MetaMath, All Rights Reserved.</p>
+          <p>Termos de Serviço - Política de Privacidade
+          © 2022 MetaMath, All Rights Reserved.</p>
         </div>
       </div>
     )

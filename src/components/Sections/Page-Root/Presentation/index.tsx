@@ -82,6 +82,7 @@ export default class Presentation extends Component {
             Join our community
           </div>
         </div>
+        <div className={styles.footerWavesContainer} />
       </div>
     )
   }

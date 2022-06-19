@@ -3,6 +3,14 @@
   height: 52vh;
   background-color: var(--moredarker);
 
+  @media only screen and (min-width: 1400px) {
+    height: 32vh;
+  }
+
+  @media only screen and (min-height: 800px) {
+    height: 32vh;
+  }
+
   .headerContainer {
     display: flex;
     padding: 70px 100px 70px 100px;
@@ -13,7 +21,9 @@
   }
 
   .footerInfo {
-    padding: 70px 200px 0px 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
     font-family: Poppins, sans-serif;
     font-size: 10px;
     color: #808080;
