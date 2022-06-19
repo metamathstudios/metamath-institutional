@@ -4,6 +4,7 @@ import trust from './assets/trust.svg'
 import stability from './assets/stability.svg'
 import performance from './assets/performance.svg'
 import design from './assets/design.svg'
+import footerWaves from './assets/footerWaves.svg'
 
 import styles from './styles.module.scss';
 
@@ -82,7 +83,9 @@ export default class Presentation extends Component {
             Join our community
           </div>
         </div>
-        <div className={styles.footerWavesContainer} />
+        <div className={styles.footerWavesContainer}>
+          <img src={footerWaves} alt='Footer Waves' width={0} />
+        </div>
       </div>
     )
   }

@@ -10,8 +10,10 @@ export default class HeroSection extends Component {
           <div className={styles.firstColumn}>
             <h1>Advanced Loremipsum. we keep all 
             your web analytics in one place</h1>
-            <div className={styles.getStarted}>
-              Get Started <img src="/assets/icons/arrow.png" alt="Arrow" />
+            <div className={styles.serviceButtonContainer}>
+              <div className={styles.serviceButton}>
+                Request our services
+              </div>
             </div>
           </div>
           <div className={styles.secondColumn}>
